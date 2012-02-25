@@ -1,0 +1,21 @@
+<plugin name='flow-manager' version='0.1' grailsVersion='1.3.7 &gt; *'>
+  <author>Mohd.Farid &amp; Sachin Verma</author>
+  <authorEmail>farid@intelligrape.com</authorEmail>
+  <title>Flow Manager Plugin helps in building flows pretty easily!!!</title>
+  <description>\
+         Flow Manager Plugin helps in building flows pretty easily!!!
+</description>
+  <documentation>https://github.com/IntelliGrape/Grails-Flow-Manager-Plugin/wiki</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>org.grails.plugin.flowManager.FlowManagerSecFilters</resource>
+    <resource>org.grails.plugins.flowManager.FlowManagerService</resource>
+    <resource>org.grails.plugins.flowManager.FlowDecider</resource>
+    <resource>org.grails.plugins.flowManager.FlowInfo</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
